@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(90deg, #DD5E89 0%, #F7BB97 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    text-align: center;
+    color:white;
+}
+
+.subtitle{
+    text-align: center;
+    color:white;
+}
+
+#selectores{
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#desafio-1{
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    left: 90px;
+    top: 361px;
+
+    background: #073B4C;
+}
+#desafio-2{
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    left: 500px;
+    top: 364px;
+    
+    background: #06D6A0;
+}
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
